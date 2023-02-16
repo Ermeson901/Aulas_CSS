@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body {
+    padding: 15px;
+    margin: 15px;
+    background-color: gainsboro;
+    color: black;
+    font-size: 20px;
+}
+header {
+    background-color: #012030;
+    color: #45c4b0;
+    border-radius: 20px;
+    padding: 5px;
+}
+h1 {
+    text-align: center;
+    text-shadow: 2px 3px 5px #dafdba;
+}
+h2 {
+    padding: 5px;
+    border-bottom: dotted 3px #012030;
+    color: #13678a;
+    font-family: 'Julee', cursive;
+}
+div {
+    text-indent: 20px;
+}
+/* Classe genérica, pode ser aplicado em qualquer elemento, precisamos apenas informar o nome da classe na tag de HTML */
+.segundaDiv {
+    background-color: slategray;
+    border: dotted;
+    border-radius: 15px;
+    padding: 10px;
+}
+/* A formatação será aplicada a todos os elementos que são parágrafos e contém a classe "corLetra"   */
+p.corLetra {
+    color: #13678a;
+}
+/* Esse estilo será aplicado apenas ao elemento que tiver o ID informado como nome da classe. no nosso exemplo o "idClass */
+#idClass {
+    padding: 10px;
+    color: white;
+    background-color: rgb(70, 69, 69);
+    border: dashed;
+    border-radius: 10px;
+}

@@ -1,0 +1,18 @@
+/* Podemos utilizar o "*" como configuração global, muito utilizado para limpar a formatação predefinida pelo navegador como padrão. */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+article {
+    padding: 15px;
+    margin: 15px;
+    color: black;
+    background-color: dimgray;
+}
+
+article p {
+    color: silver;
+}
+/* Podemos aplicar difetentes formatações em elementos especificos de acordo com cada tag, em nosso exemplo a formatação não foi aplicada no parágrafo do artigo.  */
