@@ -1,0 +1,17 @@
+@charset "utf-8";
+body {
+    background-color: gray;
+}
+
+.c1 {
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    background-color: cadetblue;
+}
+.c2 {
+    margin: auto;
+    background-color: tomato;
+    height: 250px;
+    width: 250px;
+}

@@ -1,0 +1,44 @@
+/* Aqui estamos removendo a formatação predefinida pelo navegador.  */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #926239;
+    line-height: 1.6em;
+}
+#hd1 {
+    background-image: url('/_IMG/pria.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    padding: 0 20px;
+}
+#hd1 h1 {
+    font-size: 50px;
+    line-height: 1.2em;
+}
+#hd1 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#hd1 .btn {
+    font-size: 18px;
+    text-decoration: none;
+    color: #926239;
+    border: #926239 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#sec1 {
+    padding: 20px;
+    background: #926239;
+    color: #fff;
+    text-align: center;
+}

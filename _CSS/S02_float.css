@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    border: solid 2px black;
+    margin: 15px;
+    padding: 15px;
+    float: left;
+    border-radius: 10px;
+    background-color: silver;
+}
+img {
+    float: right;
+    padding-left: 15px;
+    height: 300px;
+}
+h1 {
+    text-shadow: 3px 3px 3px darkgray;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: red;
+}
+h2 {
+    padding-bottom: 10px;
+}
+p {
+    text-align: justify;
+}

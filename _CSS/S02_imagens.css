@@ -1,0 +1,28 @@
+@charset "UT-8";
+body {
+    background-color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(91, 108, 35);
+}
+h1 {
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+    line-height: 150%;
+}
+
+img {
+    height: 450px;
+    width: 600px;
+}
+figure {
+    margin: 0 auto;
+    width: 600px;
+    padding: 5px;
+    border: solid 2px dimgray;
+}
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+/* Aqui criamos algumas configurações básicas para ajustar o alinhamento de imagem, como a largura e altura. Para que a imagem fique no meio da página utilizamos o margin com valor 0 e auto, veremos mais sobre ele nas próximas aulas. */
